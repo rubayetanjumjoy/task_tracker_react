@@ -33,7 +33,7 @@ function App() {
     
     setTask(tasks.filter(tasks => tasks.id !== id))
   }
-  //toggle
+  //togglea
   const toggle= (id)=> {
       setTask(tasks.map((task) => task.id === id ?{...task, remainder:!task.remainder}: task
         )
